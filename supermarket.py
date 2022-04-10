@@ -18,7 +18,7 @@ server = app.server
 
 
 #GLOBAL
-df = pd.read_csv('D:\\iti - AI ML\\visualisation\\supermarket\\Data\\customer_dataset.csv')
+df = pd.read_csv('D:\\iti - AI ML\\visualisation\\supermarket\\Supermarket-Dashboard\\customer_dataset.csv')
 features = ['Fresh', 'Milk', 'Grocery', 'Frozen', 'Detergents_Paper', 'Delicatessen']
 models = ['PCA', 'UMAP', 'AE', 'VAE']
 df_average = df[features].mean()
