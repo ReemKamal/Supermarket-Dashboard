@@ -14,6 +14,8 @@ from sklearn.exceptions import NonBLASDotWarning
 
 external_stylesheets = [dbc.themes.DARKLY]
 app = dash.Dash(__name__, title='Interactive Model Dashboard', external_stylesheets=[external_stylesheets])
+server = app.server
+
 
 #GLOBAL
 df = pd.read_csv('D:\\iti - AI ML\\visualisation\\supermarket\\Data\\customer_dataset.csv')
